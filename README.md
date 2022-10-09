@@ -8,12 +8,12 @@ Step-1 : Create a new environment
 virtualenv venv
 '''
 Step-2 : Activate the environment
-'''cmd
+'''python
 cd venv/Scripts
 activate
-'''cmd
+'''
 Step-3 : Pip install required packages
-'''cmd
+'''bash
 pip install -r requirements.txt
 '''
 
